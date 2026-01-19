@@ -151,9 +151,15 @@ body {
 }
 
 .logo-image {
-    width: 300px;
+    width: 350px;
     height: auto;
     max-width: 90%;
+}
+
+/* Style spécifique pour le logo Lotto 10 */
+#logo-screen1, #logo-screen3 {
+    transform: scale(2.5);
+    margin: 30px 0;
 }
 
 @keyframes fadeInDown {
